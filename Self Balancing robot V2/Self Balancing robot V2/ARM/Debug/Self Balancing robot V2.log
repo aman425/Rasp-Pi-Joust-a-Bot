@@ -1,0 +1,141 @@
+﻿  IPAddress.cpp
+  LiquidCrystal.cpp
+  Print.cpp
+  Stepper.cpp
+  Stream.cpp
+  WString.cpp
+  arduino.cpp
+  BoardPins.cpp
+  BcmI2cController.cpp
+  BcmSpiController.cpp
+  BtI2cController.cpp
+  BtSpiController.cpp
+  CY8C9540ASupport.cpp
+  DmapSupport.cpp
+  eeprom.cpp
+  GpioController.cpp
+  I2c.cpp
+  I2cController.cpp
+  I2cTransaction.cpp
+  NetworkSerial.cpp
+  PCA9685Support.cpp
+  PCAL9535ASupport.cpp
+  PulseIn.cpp
+  Servo.cpp
+  Spi.cpp
+  SpiController.cpp
+  QuarkSpiController.cpp
+  Adafruit_PWMServoDriver.cpp
+Adafruit_PWMServoDriver.cpp(47): warning C4305: '*=': truncation from 'double' to 'float'
+Adafruit_PWMServoDriver.cpp(55): warning C4244: 'initializing': conversion from 'double' to 'uint8_t', possible loss of data
+Adafruit_PWMServoDriver.cpp(76): warning C4244: 'argument': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+Adafruit_PWMServoDriver.cpp(78): warning C4244: 'argument': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+Adafruit_PWMServoDriver.cpp(124): warning C4244: 'return': conversion from 'ULONG' to 'uint8_t', possible loss of data
+  I2Cdev.cpp
+  Mirf.cpp
+  MirfHardwareSpiDriver.cpp
+  MirfSpiDriver.cpp
+I2Cdev.cpp(198): warning C4244: '=': conversion from 'ULONG' to 'uint8_t', possible loss of data
+I2Cdev.cpp(258): warning C4244: '=': conversion from 'ULONG' to 'uint16_t', possible loss of data
+MirfHardwareSpiDriver.cpp(3): warning C4244: 'return': conversion from 'ULONG' to 'uint8_t', possible loss of data
+  MPU6050.cpp
+  StartupTask.cpp
+  Self Balancing robot V2.ino
+MPU6050.cpp(322): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(337): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(352): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(645): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(663): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(681): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(699): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(718): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(736): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(754): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(772): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(802): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(825): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(843): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(865): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1010): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1036): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1061): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1087): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1181): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1202): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1223): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1284): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1296): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1307): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1318): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1329): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1340): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1351): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1362): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1375): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1394): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1413): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1432): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1451): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1470): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1494): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1521): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1568): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1587): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1606): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1625): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1645): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1665): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1699): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1710): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1721): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1732): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1744): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(1755): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2066): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2075): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2084): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2093): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2102): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2111): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2120): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2150): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2183): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2342): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2366): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2441): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2462): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2591): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2610): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2629): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2648): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2667): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2686): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2917): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2924): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2934): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2938): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2942): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2946): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2950): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2954): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2961): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2965): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+MPU6050.cpp(2972): warning C4800: 'uint8_t': forcing value to bool 'true' or 'false' (performance warning)
+Self Balancing robot V2.ino(35): warning C4305: 'initializing': truncation from 'double' to 'float'
+Self Balancing robot V2.ino(91): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+Self Balancing robot V2.ino(96): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+Self Balancing robot V2.ino(104): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+Self Balancing robot V2.ino(107): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+Self Balancing robot V2.ino(119): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Self Balancing robot V2.ino(120): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Self Balancing robot V2.ino(121): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Self Balancing robot V2.ino(125): warning C4305: '=': truncation from 'double' to 'float'
+Self Balancing robot V2.ino(128): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+Self Balancing robot V2.ino(130): warning C4305: 'initializing': truncation from 'double' to 'float'
+Self Balancing robot V2.ino(187): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+Self Balancing robot V2.ino(188): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+Self Balancing robot V2.ino(201): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Self Balancing robot V2.ino(202): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     Creating library C:\Users\Alex\documents\visual studio 2015\Projects\Self Balancing robot V2\ARM\Debug\Self Balancing robot V2\SelfBalancingrobotV2.lib and object C:\Users\Alex\documents\visual studio 2015\Projects\Self Balancing robot V2\ARM\Debug\Self Balancing robot V2\SelfBalancingrobotV2.exp
+  Self Balancing robot V2.vcxproj -> C:\Users\Alex\documents\visual studio 2015\Projects\Self Balancing robot V2\ARM\Debug\Self Balancing robot V2\SelfBalancingrobotV2.dll
+  Self Balancing robot V2.vcxproj -> C:\Users\Alex\documents\visual studio 2015\Projects\Self Balancing robot V2\ARM\Debug\Self Balancing robot V2\SelfBalancingrobotV2.pdb (Partial PDB)

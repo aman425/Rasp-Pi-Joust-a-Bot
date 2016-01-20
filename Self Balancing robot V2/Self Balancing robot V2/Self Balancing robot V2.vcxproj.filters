@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Package Dependencies">
+      <UniqueIdentifier>5759ddf0-3c78-4da6-86b7-3dc15b0840bf</UniqueIdentifier>
+      <Extensions>pfx;appxmanifest;config</Extensions>
+    </Filter>
+    <Filter Include="Package Dependencies\Assets">
+      <UniqueIdentifier>511d9e73-9951-405b-8005-bdd103597a62</UniqueIdentifier>
+      <Extensions>png</Extensions>
+    </Filter>
+    <Filter Include="Package Dependencies\Include">
+      <UniqueIdentifier>62010f58-fd20-4acc-a7bd-aee2ab37f1a6</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StartupTask.cpp">
+      <Filter>Package Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="Self Balancing robot V2.ino" />
+    <ClCompile Include="I2Cdev.cpp" />
+    <ClCompile Include="Mirf.cpp" />
+    <ClCompile Include="MirfHardwareSpiDriver.cpp" />
+    <ClCompile Include="MirfSpiDriver.cpp" />
+    <ClCompile Include="MPU6050.cpp" />
+    <ClCompile Include="@(ArduinoSDKSources)" />
+    <ClCompile Include="@(ArduinoSDKSources)" />
+    <ClCompile Include="@(ArduinoSDKSources)" />
+    <ClCompile Include="@(ArduinoSDKSources)" />
+    <ClCompile Include="@(ArduinoSDKSources)" />
+    <ClCompile Include="@(ArduinoSDKSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="@(LightningSources)" />
+    <ClCompile Include="Adafruit_PWMServoDriver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Package Dependencies\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="PinNumbers.h">
+      <Filter>Package Dependencies\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_3dmath.h" />
+    <ClInclude Include="I2Cdev.h" />
+    <ClInclude Include="Mirf.h" />
+    <ClInclude Include="MirfHardwareSpiDriver.h" />
+    <ClInclude Include="MirfSpiDriver.h" />
+    <ClInclude Include="MPU6050.h" />
+    <ClInclude Include="MPU6050_6Axis_MotionApps20.h" />
+    <ClInclude Include="MPU6050_9Axis_MotionApps41.h" />
+    <ClInclude Include="nRF24L01.h" />
+    <ClInclude Include="Adafruit_PWMServoDriver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <Filter>Package Dependencies</Filter>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <Filter>Package Dependencies</Filter>
+    </None>
+    <None Include="Self Balancing robot V2_TemporaryKey.pfx">
+      <Filter>Package Dependencies</Filter>
+    </None>
+  </ItemGroup>
+</Project>
